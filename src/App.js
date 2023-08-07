@@ -16,7 +16,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React 1 2 3
-          salih hat auch mitgemacht
+          salih hat auch mitgemacht SVen auch
         </a>
       </header>
     </div>
