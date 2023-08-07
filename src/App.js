@@ -3,7 +3,8 @@ import './App.css';
 import * as React from 'react'
 import Button from '@mui/material/Button';
 import BasicTable from './BasicTable';
-
+import Avatar from '@mui/material/Avatar';
+import Stack from '@mui/material/Stack';
 
 function App() {  
   return (
