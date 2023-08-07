@@ -27,7 +27,7 @@ function App() {
 
       <BasicTable></BasicTable>
 
-      <Avatar alt="Cindy Baker" src="./links/15034403.jpeg" />
+      <Avatar alt="Cindy Baker" src="/links/15034403.jpeg" />
 
       </header>
 
