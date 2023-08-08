@@ -5,15 +5,13 @@ import Button from '@mui/material/Button';
 import BasicTable from './BasicTable';
 import Avatar from '@mui/material/Avatar';
 import avatarsrc from './links/15034403.jpeg';
-import { Tab } from '@mui/base/Tab';
-// or
-import { Tab } from '@mui/base';
+import { Tabs } from '@mui/base/Tab';
 
 function App() {  
   return (
     <div className="App">
       <header className="App-header">
-        <Tabs></Tabs>
+        <Tabs>test</Tabs>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -25,7 +23,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React 1 2 3
-          salih hat auch mitgemacht SVen auch
+          Salih hat auch mitgemacht Sven auch
           <Button variant="contained">Hello World</Button>
         </a>
 

@@ -10,8 +10,8 @@ export default function MyApp() {
         <Tab>{ Home }</Tab>
         <Tab>{ Impressum }</Tab>
       </TabsList>
-      <TabPanel>{/* panel one */}</TabPanel>
-      <TabPanel>{/* panel two */}</TabPanel>
+      <TabPanel>{ eins }</TabPanel>
+      <TabPanel>{ zwei }</TabPanel>
     </Tabs>
   );
 }
