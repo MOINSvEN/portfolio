@@ -7,8 +7,8 @@ export default function MyApp() {
   return (
     <Tabs>
       <TabsList>
-        <Tab>{/* tab one */}</Tab>
-        <Tab>{/* tab two */}</Tab>
+        <Tab>{ Home }</Tab>
+        <Tab>{ Impressum }</Tab>
       </TabsList>
       <TabPanel>{/* panel one */}</TabPanel>
       <TabPanel>{/* panel two */}</TabPanel>

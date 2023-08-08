@@ -5,13 +5,13 @@ import Button from '@mui/material/Button';
 import BasicTable from './BasicTable';
 import Avatar from '@mui/material/Avatar';
 import avatarsrc from './links/15034403.jpeg';
-import { top-navigation } from '@mui/base/Tab';
+import { tab } from '@mui/base/Tab';
 
 function App() {  
   return (
     <div className="App">
       <header className="App-header">
-        <top-navigation></top-navigation>
+        <tab></tab>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
