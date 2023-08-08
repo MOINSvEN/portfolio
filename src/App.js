@@ -4,12 +4,14 @@ import * as React from 'react'
 import Button from '@mui/material/Button';
 import BasicTable from './BasicTable';
 import Avatar from '@mui/material/Avatar';
-import Stack from '@mui/material/Stack';
+import avatarsrc from './links/15034403.jpeg';
+import { top-navigation } from '@mui/base/Tab';
 
 function App() {  
   return (
     <div className="App">
       <header className="App-header">
+        <top-navigation></top-navigation>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -27,7 +29,7 @@ function App() {
 
       <BasicTable></BasicTable>
 
-      <Avatar alt="Cindy Baker" src="/links/15034403.jpeg" />
+      <Avatar alt="Cindy Baker" src={avatarsrc} />
 
       </header>
 
