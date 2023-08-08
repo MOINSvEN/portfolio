@@ -5,7 +5,9 @@ import Button from '@mui/material/Button';
 import BasicTable from './BasicTable';
 import Avatar from '@mui/material/Avatar';
 import avatarsrc from './links/15034403.jpeg';
-import { Tabs } from '@mui/base/Tab';
+import { Tab } from '@mui/base/Tab';
+// or
+import { Tab } from '@mui/base';
 
 function App() {  
   return (
