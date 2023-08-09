@@ -8,7 +8,7 @@ import Avatar from '@mui/material/Avatar';
 import avatarsrc from './links/15034403.jpeg';
 import Navigation from './Tabs';
 import BasicButton from  './Button';
-import { importAl } from './mediapage'
+import MediaPage from './mediapage';
 
 function App() {  
   return (
@@ -37,7 +37,7 @@ function App() {
 
       <Avatar alt="Cindy Baker" src={avatarsrc} />
 
-    
+      <MediaPage></MediaPage>    
 
       </header>
 
