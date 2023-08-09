@@ -3,15 +3,15 @@ import { TabsList } from '@mui/base/TabsList';
 import { TabPanel } from '@mui/base/TabPanel';
 import { Tabs } from '@mui/base/Tabs';
 
-export default function MyApp() {
+export default function Navigation() {
   return (
     <Tabs>
       <TabsList>
-        <Tab>{ Home }</Tab>
-        <Tab>{ Impressum }</Tab>
+        <Tab>Home</Tab>
+        <Tab>Impressum</Tab>
       </TabsList>
-      <TabPanel>{ eins }</TabPanel>
-      <TabPanel>{ zwei }</TabPanel>
+      <TabPanel></TabPanel>
+      <TabPanel></TabPanel>
     </Tabs>
   );
 }
