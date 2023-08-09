@@ -15,7 +15,7 @@ const MediaPage = () => {
             <p>Media Page..</p>
 
             {images.map(image => (
-                <img style={{width: 100}} src={image} />
+                <img style={{width: 100}} src={image} alt='test'/>
             ))}
         </>
     );
